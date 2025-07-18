@@ -1,0 +1,41 @@
+---
+title: "Gisarte Dashboards"
+format:
+  dashboard: 
+    logo: "images/GISARTE_grande.png"
+    orientation: columns
+---
+
+## Column {width="35%"}
+
+Texto colum 1
+
+```{r, loadpackages}
+#| echo: false
+#| include: false
+library(tidyverse)
+```
+
+```{r printstarwars}
+head(starwars)
+
+```
+
+
+## Column {width="65%"}
+
+
+### Row {heigth="10%"}
+
+Texto colum 2 row 1
+
+
+
+### Row {heigth="70%"}
+
+Texto colum 2 row 2
+
+
+### Row {heigth="20%"}
+
+Texto colum 2 row 3

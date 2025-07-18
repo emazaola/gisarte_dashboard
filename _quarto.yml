@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "dashboard-gisarte"
+  sidebar:
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: gisarte_dashboard.qmd
+        text: Dashboard
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: true
+
+
+
